@@ -23,6 +23,7 @@ int main(int argc, char** argv)
 {
 	srand(time(0));
 
+
 	BuildingBlockLoader bb;
 	std::vector<BuildingBlock> icons = bb.loadIcons();
 
